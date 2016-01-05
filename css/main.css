@@ -1,0 +1,48 @@
+html, body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  background-color: #151515;
+  height: 100%;
+  width: 100%;
+  color: #FFF; }
+
+#search {
+  margin-top: 35vh; }
+  #search form {
+    margin: 0 auto;
+    width: 30vw; }
+    #search form .form-control {
+      vertical-align: top;
+      height: 12vh;
+      font-size: 2em;
+      margin-bottom: 12px;
+      background-color: transparent; }
+
+#results #result-Search {
+  margin-top: 20px; }
+  #results #result-Search form {
+    margin: 0 auto;
+    width: 30vw; }
+    #results #result-Search form .btn-search-top {
+      height: 40px;
+      border: 1px solid #FFF;
+      color: #FFF; }
+#results .card {
+  margin: 10px 0; }
+  #results .card img {
+    border-radius: 45px !important;
+    width: 224px;
+    height: 278px; }
+  #results .card a {
+    color: #FFF; }
+
+#SpecificMovie {
+  background-size: cover;
+  height: 100vh; }
+  #SpecificMovie #content {
+    background-color: rgba(21, 21, 21, 0.8);
+    padding: 30px;
+    width: 50vw;
+    margin: 20vh auto; }
