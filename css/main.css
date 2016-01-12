@@ -41,6 +41,8 @@ body {
 #SpecificMovie {
   background-size: cover;
   height: 100vh; }
+  #SpecificMovie header h1 {
+    text-shadow: 1px 1px 1px #000; }
   #SpecificMovie #content {
     background-color: rgba(21, 21, 21, 0.8);
     padding: 30px;

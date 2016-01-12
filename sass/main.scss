@@ -58,6 +58,11 @@ body {
 #SpecificMovie {
     background-size: cover;
     height: 100vh;
+    header {
+        h1 {
+            text-shadow: 1px 1px 1px #000
+        }
+    }
     #content {
         background-color: transparentize($dark-bg-color, 0.2);
         padding: 30px;
